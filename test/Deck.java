@@ -37,11 +37,11 @@ public class Deck {
 		int rightRankIndex = aRightCard.getRank().ordinal();
 		if (leftSuitIndex != rightSuitIndex)
 		{
-			return (leftSuitIndex - rightSuitIndex);
+			return (rightSuitIndex - leftSuitIndex);
 		}
 		else
 		{
-			return (leftRankIndex - rightRankIndex);
+			return (rightRankIndex - leftRankIndex);
 		}
 	}
 	
